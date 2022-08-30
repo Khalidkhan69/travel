@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	padding: 5px;
+	color: white;
+	font-family: sans-serif;
+	margin: 0;
+}
+li>a:hover{
+	color: aliceblue;
+	font-size: 20px;
+}
+li{
+	padding: 12px;
+	margin-right: 10px;
+	float: right;
+}
+.first_content{
+	padding-left: 700px;
+}
+li>a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+.brand-name{
+	font-size: 40px;
+	padding-left: 28px;
+}
+.brand-name:hover{
+	font-size: 48px;
+	color: aliceblue;
+	cursor: pointer;
+}
+.main-content{
+	padding: 100px;
+	font-size: 40px;
+	font-family: sans-serif;
+	display: inline-block;
+}
+.paragraph{
+	font-size: 20px;
+	padding-left: 16.6px;
+	color: white;
+}
+.h1{
+	color: white;
+}
+h1,p{
+	margin: 0;
+	padding: 13px;
+}	
+.view-more{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: deepskyblue;
+	font-family: cursive;
+	margin-left: 16px;
+	max-width: 113px;
+	border:solid 1px deepskyblue;
+	border-radius: 12px; 
+	padding: 14px;
+	text-align: center;
+}
+.view-more:hover{
+	color: aliceblue;
+	font-size: 20px;
+}
+.bg-image{
+	background-image: url("../images/ship.jpeg");
+	background-size: cover;
+	background-position: 50%,50%;
+	height: 100vh;
+}
+.start-your-journey{
+	color: royalblue;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	display: flex;
+	max-width: 400px;
+	padding-top: 50px;
+	margin-left: 460px;
+	/*margin-top: 30px;*/
+}
+.searched-countries{
+	display: flex;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-left: 456px;
+	color: gray;
+}
+.section-2{
+	background-color: lightgray;
+	height: 1050px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	margin-top: 75px;
+}
+.greece{
+	background-color: white;
+	margin-left: 100px;
+	text-align: center;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	border-radius: 1rem;
+}
+.greece:hover{
+	opacity: 0.85;
+	cursor: pointer;
+}
+.greece img{border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem
+
+}
+.images-2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	margin-top: 50px;
+}
+.section-3{
+	background-image: url("../images/mountains.jpeg");
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 50%, 50%;
+	height: 65vh;
+}
+.discount{
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	display: flex;
+	padding-left: 700px;
+	padding-top: 110px;
+}
+.discount-p{
+	display: flex;
+	padding-left: 580px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: white;
+}
+.book{
+	font-family: sans-serif;
+	font-size: 30px;
+	display: flex;
+	color: white;
+	font-weight: lighter;
+	text-decoration:none;
+	padding-top: 20px;
+	margin-left: 800px;
+	border: solid 1px white;
+	max-width: 173px;
+	text-shadow: 5px 5px 5px black;
+
+}
+.book:hover{
+	/*font-size: 40px;*/
+	/*text-decoration: underline;*/
+	border-style: none;
+}
